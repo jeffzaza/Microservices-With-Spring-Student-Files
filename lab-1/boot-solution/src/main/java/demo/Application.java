@@ -37,6 +37,7 @@ public class Application {
 		list.add(new Team("Washington","Generals",null));
 
 		teamRepository.save(list);
+		//這個橫空出世的save，又是Spring Boot的傑作
 	}    
     
 }

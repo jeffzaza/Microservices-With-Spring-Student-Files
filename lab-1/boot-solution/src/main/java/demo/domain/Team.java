@@ -23,6 +23,7 @@ public class Team {
 	
 	@OneToMany(cascade=CascadeType.ALL)
 	@JoinColumn(name="teamId")
+	//OneToMany表示這是一個foreign key，所以要用JoinColumn來指定foreign key
 	Set<Player> players;
 	
 	
