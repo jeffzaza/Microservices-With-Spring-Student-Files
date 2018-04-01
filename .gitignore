@@ -36,3 +36,5 @@ target/
 *.project
 *.classpath
 *.prefs
+.settings/
+.factorypath
