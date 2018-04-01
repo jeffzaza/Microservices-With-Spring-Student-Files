@@ -1,8 +1,13 @@
 package com.example.demo.repo;
 
+import java.util.Set;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Team {
@@ -10,9 +15,28 @@ public class Team {
 	@Id
 	@GeneratedValue
 	Long id;
+	
+	
 	String name;
 	String location;
 	String mascot;
+	
+	@OneToMany(cascade=CascadeType.ALL)
+	@JoinColumn(name="teamId")
+	Set<Player> players;
+	
+	
+	
+	public Team() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Team(String name, String location, Set<Player> players) {
+		super();
+		this.name = name;
+		this.location = location;
+		this.players = players;
+	}
 	public Long getId() {
 		return id;
 	}
