@@ -39,3 +39,6 @@ target/
 .settings/
 .factorypath
 .metadata
+mvnw*
+.recommenders
+.mvn
