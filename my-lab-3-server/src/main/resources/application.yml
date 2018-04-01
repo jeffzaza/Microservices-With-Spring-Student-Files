@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jeffzaza/Microservices-With-Spring-Student-Files/my-ConfigData
+server:
+  port: 8001
