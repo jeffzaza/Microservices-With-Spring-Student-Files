@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.repo.Team;
 import com.example.demo.repo.TeamRepository;
 
-@RestController
+//@RestController
 public class TeamController {
 
 	@Autowired
