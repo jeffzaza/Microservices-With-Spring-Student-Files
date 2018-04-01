@@ -38,3 +38,4 @@ target/
 *.prefs
 .settings/
 .factorypath
+.metadata
