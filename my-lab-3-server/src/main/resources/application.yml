@@ -3,6 +3,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jeffzaza/Microservices-With-Spring-Student-Files/my-ConfigData
+          uri: https://github.com/jeffzaza/spring-boot-tutor-config
 server:
   port: 8001
