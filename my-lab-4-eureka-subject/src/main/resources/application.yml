@@ -2,7 +2,7 @@
 eureka:
   client:
     serviceUrl:
-      defultZone: http://localhost:8010/eureka
+      defaultZone: http://localhost:8010/eureka
 words: I,You,He,She,It
 server:
   port: ${PORT:${SERVER_PORT:0}}
