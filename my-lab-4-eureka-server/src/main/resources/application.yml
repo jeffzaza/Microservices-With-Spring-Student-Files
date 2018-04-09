@@ -1,5 +1,12 @@
 ---
 spring:
+  profiles: default 
+server:
+  port: 8010
+  
+
+---
+spring:
   profiles: primary 
 server:
   port: 8011
