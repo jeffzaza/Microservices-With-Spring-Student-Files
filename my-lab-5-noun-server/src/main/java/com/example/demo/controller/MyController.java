@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 
-    @Value("${words}")
-    String words;
+    //@Value("${words}")
+	//String words;
+    String words = "apple,ball,cat,dog,egg";
 
     @GetMapping("/")
     public @ResponseBody String getWord() {

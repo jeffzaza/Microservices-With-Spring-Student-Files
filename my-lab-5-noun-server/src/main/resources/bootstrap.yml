@@ -4,4 +4,8 @@ spring:
     config:
       uri: http://localhost:8001
   application:
-    name: my-word-server
+    name: my-lab-5-noun
+# Allow Eureka to recognize two apps of the same type on the same host as separate instances:
+eureka:
+  instance:
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}

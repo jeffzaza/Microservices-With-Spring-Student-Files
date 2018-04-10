@@ -4,6 +4,6 @@ spring:
       server:
         git:
           uri: https://github.com/jeffzaza/spring-boot-tutor-config
-          searchPaths: lab-4
+          searchPaths: lab-5
 server:
   port: 8001
