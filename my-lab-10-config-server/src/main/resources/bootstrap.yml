@@ -1,2 +1,5 @@
 encrypt:
   key: jeffkey
+security:
+  user:
+    password: "{cipher}1ad6f797bac5f925a16546f775c6562896593abdda31f535c434fdf52d1fc0df"
