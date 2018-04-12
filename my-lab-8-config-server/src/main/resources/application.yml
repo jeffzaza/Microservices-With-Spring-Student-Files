@@ -7,3 +7,6 @@ spring:
           searchPaths: lab-8
 server:
   port: 8001
+management:
+  security:
+    enabled: false
